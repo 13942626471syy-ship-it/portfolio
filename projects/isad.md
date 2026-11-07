@@ -2,6 +2,26 @@
 
 面向信息系统分析与设计教学的工具项目。
 
+## 界面与成果
+
+[演示导览](../docs/demo-guide.md) · [运行与构建说明](../docs/deployment/isad.md)
+
+![ISAD 建模控制台](../assets/isad/modeling-console.png)
+
+按需求、行为和对象建模组织成果。隔离 QA 使用“作业提交与取消”示例和验收角色，没有真实学生资料。
+
+![ISAD BCE 分析](../assets/isad/bce-analysis.png)
+
+将用例拆为边界、控制与实体职责。截图仍显示分析进度和警告，不代表全部语义验收完成。
+
+![ISAD 数据库字段设计](../assets/isad/database-design.png)
+
+结构化编辑英文列名、SQL 类型、主键与可空规则；图中只有演示字段定义，没有真实数据行。
+
+![ISAD 生成的设计顺序图](../assets/isad/design-sequence.png)
+
+实际生成的主线交互产物，用于展示页面、控制器与实体协作，不宣称覆盖全部异常分支。
+
 ## 项目目标
 
 连接课程分析、建模、生成与查看流程，通过桌面客户端、后端服务和独立管理页面组织教学项目。

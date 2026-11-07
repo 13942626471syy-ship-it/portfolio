@@ -1,0 +1,19 @@
+# Keep private/runtime material out of this showcase.
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.zip
+*.7z
+*.exe
+*.msi
+*.mp4
+*.webm
+node_modules/
+.runtime/
+private/
+review/
+__pycache__/
+.DS_Store

@@ -2,6 +2,22 @@
 
 校园闲置流转与迎新物资服务 MVP。
 
+## 界面与成果
+
+[演示导览](../docs/demo-guide.md) · [本地运行说明](../docs/deployment/campusloop.md)
+
+![CampusLoop 闲置登记](../assets/campusloop/clearout.png)
+
+闲置登记与品相选择。估价和时效属于 MVP 示例，不代表已验证的 AI 模型效果或实际服务承诺。
+
+![CampusLoop 新生组合包](../assets/campusloop/packages.png)
+
+组合包浏览与预约清单，价格、库存均为演示用途。
+
+![CampusLoop 运营工作台](../assets/campusloop/operations.png)
+
+点位流程与模拟指标，不代表真实营收、转化率或运营规模。
+
 ## 项目目标
 
 围绕毕业季闲置托管、校园物资中转和新生开箱包，探索校园循环服务的业务流程。

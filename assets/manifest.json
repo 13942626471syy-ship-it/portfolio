@@ -1,0 +1,74 @@
+[
+  {
+    "file": "assets/campusloop/clearout.png",
+    "width": 1240,
+    "height": 1110,
+    "sha256": "4007b540649b29fc503a38167b4cc6d47852c689257507a6264961293edb2785"
+  },
+  {
+    "file": "assets/campusloop/packages.png",
+    "width": 1255,
+    "height": 850,
+    "sha256": "139ea4aaedc16ab58b940bf7979d294ac2ee46a6c01ea8b1357661b6a1841ed7"
+  },
+  {
+    "file": "assets/campusloop/operations.png",
+    "width": 1265,
+    "height": 1045,
+    "sha256": "093986a27082f7ec3c053c33a28ad5186e47acdf136c42f353e642027a297d45"
+  },
+  {
+    "file": "assets/erp-agent/teaching-workbench.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "e10636dffee64b2d6055cfb2cca4d4b031a57a96b55e67b49b8cf9a18aecb0e6"
+  },
+  {
+    "file": "assets/erp-agent/rule-followup.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "8b1633f2e3121021c4356fa9ed043b04758563c8012aad08458fff5dd6487490"
+  },
+  {
+    "file": "assets/isad/modeling-console.png",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "a33c83daa36aeaea566116c40fa6819118a893ae2459c125dd2d79ba6d18d58e"
+  },
+  {
+    "file": "assets/isad/bce-analysis.png",
+    "width": 1366,
+    "height": 850,
+    "sha256": "0da298eb564e439a81ecbbea9368e9a01c9f82074c5671ee42e3785acdc75615"
+  },
+  {
+    "file": "assets/isad/database-design.png",
+    "width": 1366,
+    "height": 850,
+    "sha256": "2845c2bb20c712aba401e68b9d44f27d3406b428582ece21dc61cbaeafc323ac"
+  },
+  {
+    "file": "assets/isad/design-sequence.png",
+    "width": 931,
+    "height": 802,
+    "sha256": "907b7687bb48eda81b94452ea50aeabb070c544c95f868e19e0b09f14e1a91fd"
+  },
+  {
+    "file": "assets/whitegz/report-workbench.png",
+    "width": 1440,
+    "height": 1100,
+    "sha256": "c88990fab00bca23cf6c971f7c69158675fe959b5a7dd934b8d84eee898c3564"
+  },
+  {
+    "file": "assets/whitegz/evidence-review.png",
+    "width": 1440,
+    "height": 1100,
+    "sha256": "4bf657932577577930b2540cb07b14ea91eaa38363dbdbd34fa8bc35aca250fc"
+  },
+  {
+    "file": "assets/whitegz/chart-lab.png",
+    "width": 1366,
+    "height": 768,
+    "sha256": "cf2beb4295f4cf6761d6900aed9089a83fd956d3ce1f371aeccbd8ab23c9a402"
+  }
+]
