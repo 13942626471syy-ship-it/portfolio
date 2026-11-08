@@ -19,7 +19,7 @@
 ## 技术结构与取舍
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[资料检索与来源] --> B[证据准入与事实整理]
     B --> C[分析与报告生成]
     C --> D[结论与证据绑定]

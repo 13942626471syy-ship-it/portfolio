@@ -20,7 +20,7 @@
 ## 技术结构与取舍
 
 ```mermaid
-flowchart LR
+flowchart TB
     UI[学生助手或操作界面] --> API[FastAPI 与业务服务]
     API --> Q[规则证据检索]
     Q --> L[模型讲解与工作流]

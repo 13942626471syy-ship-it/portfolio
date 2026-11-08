@@ -19,7 +19,7 @@
 ## 技术结构与取舍
 
 ```mermaid
-flowchart LR
+flowchart TB
     R[React 学生与教师界面] -->|HTTP| API[Express 分层后端]
     R -->|IPC| M[Electron 主进程]
     M --> U[StarUML 与图形产物]
