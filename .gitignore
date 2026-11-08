@@ -16,4 +16,5 @@ node_modules/
 private/
 review/
 __pycache__/
+.test-tmp/
 .DS_Store

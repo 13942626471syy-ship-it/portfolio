@@ -31,9 +31,9 @@ GitHub Pages 可以托管静态展示页面，不能运行 Express/FastAPI、MyS
 
 ## 本展示仓库的发布检查
 
-本次对相对链接、图片指纹、图片元数据和待上传文件清单作了检查，并逐张核对所选截图。发布后核对远端文件与匿名访问结果。这些检查只针对展示资料，不替代产品测试。
+本仓库提供离线的[展示资料检查](maintenance.md#自动检查)，覆盖相对链接、标题锚点、图片指纹、尺寸、嵌入元数据、公开文件清单和可识别的凭据格式。另备有[CI 配置模板](ci.md)，云端工作流尚未启用。检查不连接私有工程或读取 GitHub Secrets。
 
-后续可以在独立的文档流程中增加持续检查，但自动检查也不能替代截图与视频的人工隐私审核。
+新增素材仍需逐张人工审核；自动通过不能证明画面没有个人信息，也不能替代产品测试。每轮实际范围见[核验记录](verification.md)。
 
 ## 参考
 
@@ -41,6 +41,8 @@ GitHub Pages 可以托管静态展示页面，不能运行 Express/FastAPI、MyS
 - [Excalidraw](https://github.com/excalidraw/excalidraw)：区分产品入口、功能与本地开发。
 - [Immich](https://github.com/immich-app/immich)：截图、安装、文档与版本记录分层。
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch)：演示、使用、开发与维护入口。
+- [Dify README](https://github.com/langgenius/dify/blob/main/README.md)：先写运行前提，再给启动和升级入口。
+- [FastAPI README](https://github.com/fastapi/fastapi/blob/master/README.md)：用最小检查串起安装、启动和可观察结果。
 
 参考的是资料组织方式，不复制这些项目的代码或宣传成果。
 
