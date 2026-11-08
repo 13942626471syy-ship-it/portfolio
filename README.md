@@ -1,26 +1,36 @@
 # Whitegg · 项目作品集
 
-AI 应用、教学工具与业务系统。这里展示真实界面、项目流程、技术取舍和维护记录。
+AI 应用、教学工具与业务系统。这里展示真实界面、项目流程、技术结构和维护记录。
 
-[演示导览](docs/demo-guide.md) · [运行与部署](docs/deployment.md) · [维护记录](CHANGELOG.md)
+[看演示](docs/demo-guide.md) · [项目状态与验证范围](docs/project-status.md) · [运行与部署](docs/deployment.md) · [维护记录](CHANGELOG.md)
 
 ## 精选项目
 
-| 项目 | 解决的问题 | 看什么 |
+| [WhiteGZ](projects/whitegz.md) | [ISAD](projects/isad.md) | [ERP Agent](projects/erp-agent.md) |
 | --- | --- | --- |
-| [WhiteGZ](projects/whitegz.md) | 企业研究中的证据追踪、分析与报告组织 | [报告与图表截图](projects/whitegz.md#界面与成果) · [运行说明](docs/deployment/whitegz.md) |
-| [ISAD](projects/isad.md) | 信息系统分析与设计的教学和建模流程 | [建模流程与实际产物](projects/isad.md#界面与成果) · [构建说明](docs/deployment/isad.md) |
-| [ERP Agent](projects/erp-agent.md) | 经营模拟中的规则计算、方案比较与执行回放 | [学生助手演示](projects/erp-agent.md#界面与成果) · [运行说明](docs/deployment/erp-agent.md) |
+| [![WhiteGZ 报告与证据工作台，历史样本](assets/whitegz/report-workbench.png)](projects/whitegz.md) | [![ISAD 隔离教学示例的建模控制台](assets/isad/modeling-console.png)](projects/isad.md) | [![ERP 学生助手历史演示，模拟经营数据](assets/erp-agent/teaching-workbench.png)](projects/erp-agent.md) |
+| 企业研究、证据追踪与报告组织 | 信息系统分析、建模与产物查看 | 经营规则计算、候选规划与执行回放 |
+| 历史公开来源样本，数字未重新核验 | 隔离 QA 教学示例，无真实学生数据 | 学生助手独立演示，资金均为模拟值 |
+| [3 张界面](projects/whitegz.md#界面与成果) · [运行说明](docs/deployment/whitegz.md) | [4 张界面与产物](projects/isad.md#界面与成果) · [构建说明](docs/deployment/isad.md) | [2 张助手界面](projects/erp-agent.md#界面与成果) · [运行说明](docs/deployment/erp-agent.md) |
+
+点击预览进入完整项目页。图片展示对应版本的界面，不代表最新版本完整验收通过；ERP 的助手界面与主工程分别说明。
 
 ## 更多项目
 
 - [拾光盒子 CampusLoop](projects/campusloop.md)：校园闲置流转与迎新物资服务 MVP，含 3 张业务界面与本地运行说明。
 - [DNUI · 党员成长积分管理系统](projects/dnui.md)：学生申报、教师审核与管理业务。真实校园截图和数据不在公开范围。
 
-## 如何阅读
+## 按你关心的内容阅读
 
-先看项目页的目标、截图与演示步骤，再看技术结构、运行前提和已知限制。截图来自既有工程演示或隔离验证资料，配文说明其版本与数据性质；不是本次重新验收的证明。
+- **看产品流程**：[演示导览](docs/demo-guide.md)，按问题、操作和可见产物阅读 4 个项目。
+- **看技术结构**：[项目状态与验证范围](docs/project-status.md)，对照技术栈、已有材料与待验证项。
+- **准备本地运行**：[运行与部署](docs/deployment.md)，先确认已取得相应私有源码授权。
+- **了解持续维护**：[更新记录](CHANGELOG.md)与[维护说明](docs/maintenance.md)。
 
-这是**展示仓库**。产品源码、真实数据与内部记录保持私有，克隆本仓库不能启动这些产品。运行教程面向已经获得相应源码授权的协作者。
+## 公开边界
 
-[素材说明](assets/README.md) · [维护说明](docs/maintenance.md) · [公开范围](docs/publication-policy.md)
+这是**展示仓库**，不是产品源码仓库。克隆后可阅读文档和图片，不能启动各产品；运行教程面向已获得源码授权的协作者。目前没有公共在线体验地址、软件安装包或已审核的完整演示视频。
+
+产品源码、真实数据与原始内部记录保持私有。截图来自既有工程演示或隔离验证资料，每张图片的说明与文件指纹可查。
+
+[素材说明](assets/README.md) · [公开范围](docs/publication-policy.md)
