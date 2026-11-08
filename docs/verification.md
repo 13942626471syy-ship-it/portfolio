@@ -24,7 +24,7 @@ python -m unittest discover -s tests -v
 python scripts/validate_showcase.py --json
 ```
 
-校验器在本地执行，文档变更可查[提交记录](https://github.com/13942626471syy-ship-it/portfolio/commits/main/)，媒体指纹见 [manifest.json](../assets/manifest.json)。[CI 配置模板](ci.md)已准备，工作流尚未安装或运行。
+校验器在本地执行，文档变更可查[提交记录](https://github.com/Whitegg-whr/portfolio/commits/main/)，媒体指纹见 [manifest.json](../assets/manifest.json)。[CI 配置模板](ci.md)已准备，工作流尚未安装或运行。
 
 ## 尚未完成的验证
 
